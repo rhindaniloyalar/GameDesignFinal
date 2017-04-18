@@ -1,0 +1,41 @@
+1) Folders and Files
+	Character Classes
+					FighterClass
+				  /
+		BaseClass - Cleric(need to create)
+				  \
+					WizardClass
+	Combat
+		AwardExperience
+		CombatStateMachine
+	GameInformation
+		GameInformation - class that holds the player details
+	Items
+		Classes
+			BasePotion               BaseEquipment
+			    |                   /
+			BaseItem - BaseStatItem 
+			    |			        \
+			BaseScroll				  BaseWeapon
+		Creation
+			CreateNewEquipment
+			CreateNewWeapon
+	Player
+		BasePlayer
+		CreateCharacter
+		LevelUp
+	PlayerMovement
+		CameraController - attached to main camera
+		PlayerController - New movement script
+		PlayerMovement - experimental player movement
+	Saving and Loading
+		SaveGame
+		LoadGame
+		PPSerialization - binary serializer for saving game
+	testGUI - script with no home
+
+	Abilty slots from ability list
+	set abilities in create new player class
+	add ability list to classes
+	create a speadsheet for class damage and types
+	and racial bonuses
